@@ -298,25 +298,12 @@ flowchart TD
 
 ## 6. Bảng ánh xạ User Flow ↔ màn hình
 
----
-
-Flow Màn hình / trạng thái Mục tiêu
-sử dụng
-
----
-
-Flow 1 --- Discover & S01, S02, S03, S04, Khám phá, xem chi tiết,
-Register T02, T03, S05, S07, T06 đăng ký, xử lý lỗi và
-mở vé
-
-Flow 2 --- Search & S02, T06, S03, S08, T04 Tìm/lọc, lưu hoặc bỏ
-Save lưu sự kiện và phục hồi
-khi không có kết quả
-
-Flow 3 --- Manage & S06, S07, T01, T07, S02 Xem vé, xác nhận hủy và
-Cancel hoàn tác thao tác
-
----
+| Flow                          | Màn hình / trạng thái sử dụng          | Mục tiêu                                                                  |
+| ----------------------------- | -------------------------------------- | ------------------------------------------------------------------------- |
+| **F01 — Register Event**      | S01, S02, S03, S04, T02, T03, S05, S07 | Khám phá, xem chi tiết, đăng ký, xử lý lỗi và mở vé                       |
+| **F02 — Search & Filter**     | S01, S02, T06, S03                     | Tìm kiếm/lọc, xử lý trường hợp không có kết quả và mở chi tiết            |
+| **F03 — Manage Registration** | S06, S07, T01, T07, S02                | Xem vé, xác nhận hủy, giữ đăng ký hoặc hoàn tác thao tác                  |
+| **F04 — Save Favorites**      | S03, S08, T04, S02                     | Lưu sự kiện, xem danh sách đã lưu, bỏ lưu và phục hồi khi danh sách trống |
 
 ## 7. Điểm cần kiểm tra trong Figma Prototype
 
