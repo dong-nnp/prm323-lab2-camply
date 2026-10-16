@@ -1,1 +1,29 @@
-# Design decisions
+# Camply — Design Decisions & Accessibility Audit
+
+**Scope:** Tổng hợp 8 quyết định thiết kế quan trọng nhất từ quá trình lặp và phản biện bằng AI, cùng kết quả kiểm tra Accessibility & Responsive trên hệ thống Design Tokens và Figma.
+
+## 1. Decision Log (Các quyết định thiết kế trọng tâm)
+
+| ID | Phát hiện / Đề xuất | Quyết định | Lý do (Persona / Heuristic / Ràng buộc) & Xử lý trong Figma |
+|---|---|---|---|
+| **D01** | Các màn hình lồng bên trong (nested screens) lặp lại thanh thương hiệu và bottom navigation | **Chấp nhận** quy tắc chung: màn hình con chỉ dùng Back + Tiêu đề (+ 1 action liên quan) | **H4 (Consistency)** & **H8 (Minimalist design)**: Giữ không gian dọc trên màn 360×800 dp và đặt CTA chính trong tầm ngón cái khi Persona 1 thao tác một tay. |
+| **D02** | Điền sẵn (prefill) thông tin đăng ký từ hồ sơ sinh viên trên S04 | **Chấp nhận (có điều kiện)** | **H7 (Efficiency)** & **H5 (Error prevention)**: Giúp Persona 1 hoàn tất đăng ký trong ≤120 giây mà không phải gõ lại Họ tên, MSSV, Email. Giữ các ô có thể chỉnh sửa và bảo toàn dữ liệu khi báo lỗi T02. |
+| **D03** | Trạng thái thông báo chưa đọc trên S09 chỉ phân biệt bằng chấm màu xanh | **Chỉnh sửa** | **H1 (Visibility)** & **WCAG 1.4.1 (Không dùng màu đơn độc)**: Bổ sung nhãn chữ `NEW` đi kèm chấm xanh cho các dòng chưa đọc và đồng bộ khớp với số đếm `2 new` ở tiêu đề nhóm Today. |
+| **D04** | Ngày giờ, địa điểm sự kiện và thông tin vé không khớp giữa các màn S01, S02, S03–S08 | **Chấp nhận** chuẩn hóa về 1 bản ghi sự kiện & 1 hồ sơ duy nhất | **H4 (Consistency)** & **H1 (Visibility)**: Persona 1 cần tra cứu chính xác lịch/địa điểm và xuất trình vé khớp MSSV (`Alex Morgan` / `STU-849201`) tại cổng sự kiện. |
+| **D05** | Link chữ "Details ›" nằm riêng trên thẻ sự kiện vốn đã bấm được toàn thẻ | **Từ chối** giữ link "Details ›" | **H8 (Minimalist design)** & **Touch target ≥ 48×48 dp**: Link chữ nhỏ gây dư thừa thao tác và dễ bấm nhầm khi dùng một tay. Toàn bộ thẻ là vùng chạm mở S03, nút Bookmark tách riêng. |
+| **D06** | Dòng phụ đề "Find what's happening around campus" lặp lại ý của tiêu đề Explore Events | **Từ chối** | **H8 (Minimalist design)**: Không mang lại thông tin mới, làm tốn chiều cao hiển thị và đẩy danh sách sự kiện xuống thấp trên màn hình 800 dp. |
+| **D07** | Đề xuất hiển thị nút `Undo` trong 5 giây sau khi hủy đăng ký tại T07 | **Từ chối** (Không hiển thị Undo tại T07) | **Ràng buộc nghiệp vụ & H5 (Error prevention) / H1 (Visibility)**: Thao tác hủy đã có bước phòng ngừa lỗi rất rõ tại hộp thoại xác nhận **T01** (*Keep Registration* vs *Cancel Registration*). Khi người dùng đã bấm xác nhận hủy ở T01, lệnh hủy được coi là đã chốt (committed) trên hệ thống và suất tham dự có thể được nhường ngay cho sinh viên khác, nên hệ thống không thể hứa hẹn khôi phục (rollback) qua nút Undo. Tại T07 chỉ hiển thị thông báo xác nhận đã hủy rõ ràng; nếu muốn tham gia lại, sinh viên có thể đăng ký lại khi sự kiện còn mở. |
+| **D08** | Sử dụng màu Lime (`#C9F46A`) cho các nhãn không phải danh mục sự kiện hoặc làm màu chủ đạo | **Từ chối** | **H4 (Consistency)** & quy tắc **`DESIGN.md`**: Màu Lime chỉ dành riêng cho nhãn danh mục sự kiện (Music, Workshop, Sports, Arts) đi kèm chữ tối `#171923`. Màu hành động chính luôn là Electric Blue `#2457F5`. |
+
+## 2. Accessibility and Responsive Audit Checklist
+
+| Hạng mục kiểm tra | Tiêu chuẩn mục tiêu | Kết quả kiểm tra Token & Giao diện | Trạng thái xử lý trên Figma |
+|---|---|---|---|
+| **Độ tương phản văn bản thường (Normal text contrast)** | ≥ 4.5:1 (WCAG AA) | `#171923` trên `#C9F46A` = **13.86:1**; `#FFFFFF` trên `#2457F5` = **5.59:1**; `#525866` trên `#FFFFFF` = **7.13:1**; `#B42336` trên `#FFFFFF` = **6.49:1**. | **Đạt (Pass)** — Đã áp dụng qua Figma Variables. |
+| **Độ tương phản chữ gợi ý / vô hiệu (Placeholder / Disabled)** | ≥ 4.5:1 cho nội dung đọc; phân biệt rõ trạng thái | Token `#737987` trên nền trắng đạt 4.36:1 và trên `#F8F9FC` đạt 4.14:1 (chỉ dùng cho trạng thái Disabled). | **Đã khắc phục** — Không dùng `#737987` cho dữ liệu đã điền hoặc văn bản thông tin; văn bản gợi ý cần đọc dùng `#525866` (≥ 4.5:1). |
+| **Kích thước chữ nội dung (Body text size)** | ≥ 14 sp | Mọi style Body và Label trong `DESIGN.md` đều đặt tối thiểu `14/20 sp`. Các metadata bị nhỏ (12–13 px ở bản xuất Stitch S03) được nâng lên 14 sp. | **Đã khắc phục** — Toàn bộ body/metadata đạt ≥ 14 sp và cho phép xuống dòng (wrap). |
+| **Vùng chạm tối thiểu (Touch target)** | ≥ 48 × 48 dp | Các nút chính/phụ cao tối thiểu 48 dp. Nút Back (từng bị 44 dp ở S04 Stitch), icon Bookmark, Filter Chip và nút X xóa tìm kiếm được mở rộng vùng padding chạm. | **Đã khắc phục** — Mọi vùng tương tác trong Figma Component đều có hit area ≥ 48 × 48 dp. |
+| **Không truyền đạt trạng thái chỉ bằng màu sắc** | Bắt buộc (WCAG 1.4.1) | Trạng thái `Registered` có chấm xanh + nhãn chữ; thông báo chưa đọc có chấm xanh + nhãn `NEW`; lỗi biểu mẫu có viền đỏ + icon chấm than + dòng giải thích lỗi; chip đang chọn có nền xanh + icon dấu tích. | **Đạt (Pass)** — Đã áp dụng đồng bộ trên S02, S04, S06, S09, T02, T06. |
+| **Bố cục chuẩn 360 dp** | Khung tham chiếu 360 × 800 dp | Sử dụng lưới lề ngang 16 dp, thang khoảng cách 4 dp, bố cục 1 cột cuộn dọc, tôn trọng Safe Area và Bottom Navigation. | **Đạt (Pass)** — Đã dựng toàn bộ màn hình ở Page 03 Final UI theo khung 360 × 800 dp. |
+| **Bố cục mở rộng 412 dp** | Co giãn linh hoạt (Flexible layout) | Dùng Figma Auto Layout (`Fill container` cho thẻ và ô nhập liệu) để khi kéo rộng từ 360 dp lên 412 dp không bị lệch lề, tràn chữ hay vỡ tỷ lệ ảnh. | **Đạt (Pass)** — Đã kiểm tra co giãn Auto Layout ở chiều rộng 412 dp. |
+| **Hành vi màn hình ≥ 600 dp** | Đặc tả trong tài liệu Handoff | Giới hạn chiều rộng tối đa của vùng nội dung ở giữa màn hình hoặc chia lưới 2 cột cho danh sách sự kiện mà không thêm tab điều hướng mới. | **Đã đặc tả** chi tiết tại Mục 5 của `handoff/flutter-handoff.md`. |
