@@ -1,3 +1,4 @@
+
 # Persona 1 - Sinh viên năng động
 
 ## Tên giả định & Archetype:
@@ -5,24 +6,27 @@
 **Nguyễn Minh Anh — Sinh viên thích khám phá trải nghiệm mới.**
 
 - 20 tuổi, sinh viên đại học năm 2.
-- Quan tâm workshop, âm nhạc, giao lưu và hoạt động câu lạc bộ. 
+- Quan tâm workshop, âm nhạc, giao lưu và hoạt động câu lạc bộ.
 - Thường muốn biết trường đang có gì thú vị trước khi xác định sự kiện cụ thể để tham gia.
 
 ## Ưu tiên & lý do:
 
-- **Primary.** 
-- **Lí do**: Nhu cầu đại diện trực tiếp cho bài toán cốt lõi mà Camply giải quyết, chính là giúp sinh viên khám phá các sự kiện trong trường ngay cả khi họ chưa biết chính xác mình muốn tham gia sự kiện nào
+- **Primary.**
+- **Lí do**: Nhu cầu đại diện trực tiếp cho bài toán cốt lõi mà Camply giải quyết, chính là giúp sinh viên khám phá các sự kiện trong trường ngay cả khi họ chưa biết chính xác mình muốn tham gia sự kiện nào.
 
 ## Usage context:
 
 - **Thời điểm:** Nghỉ giữa các tiết, nghỉ trưa hoặc lúc chờ xe; muốn xem nhanh rồi quay lại việc học hoặc việc đang làm.
-- **Thiết bị:** Smartphone, màn hình dọc; đôi lúc chỉ rảnh một tay. Đáp ứng cho 2 hệ điều hành phổ biến hiện nay Android và IOS.
+- **Thiết bị:** Smartphone, màn hình dọc; đôi lúc chỉ rảnh một tay. Đáp ứng cho 2 hệ điều hành phổ biến hiện nay Android và iOS.
 - **Môi trường:** Trong khuôn viên trường, lớp học lúc nghỉ, khu tự học hoặc nơi chờ; có thể gặp ánh sáng mạnh và kết nối không ổn định.
 - **Sự chú ý:** Dễ bị ngắt bởi tin nhắn, bạn bè hoặc giờ vào lớp. Một phiên xem khoảng 1–5 phút là giả định cần xác minh.
 
 ## Goals:
+
 1. Giúp sinh viên nhanh chóng khám phá và tìm được một hoạt động trong trường phù hợp với sở thích, ngay cả khi họ chưa biết tên sự kiện hoặc đơn vị tổ chức.
-2. Giúp sinh viên nhanh chóng hiểu sự kiện gồm những gì, diễn ra khi nào, ở đâu và còn khả năng đăng ký hay không, từ đó xác định hoạt động nào phù hợp và thực tế có thể tham gia..
+
+2. Giúp sinh viên nhanh chóng hiểu sự kiện gồm những gì, diễn ra khi nào, ở đâu và còn khả năng đăng ký hay không, từ đó xác định hoạt động nào phù hợp và thực tế có thể tham gia.
+
 3. Giúp sinh viên biết mình đã đăng ký gì và tìm lại đúng lịch, địa điểm, trạng thái trước khi đến sự kiện.
 
 ## Job to Be Done:
@@ -40,7 +44,9 @@ Khi có thời gian rảnh và muốn thử một hoạt động mới trong tr�
 ## Pain points:
 
 1. **Thông tin phân tán:** Khi muốn tìm hoạt động mới, phải kiểm tra nhiều kênh → mất thời gian và có thể biết đến sự kiện khi đã hết hạn đăng ký.
+
 2. **Thông tin quyết định khó tìm:** Ngày giờ, địa điểm và điều kiện đăng ký lẫn trong bài viết dài → phải đọc lại, khó so sánh và dễ bỏ sót thông tin quan trọng.
+
 3. **Khó tra lại sau đăng ký:** Bài đăng, form và xác nhận nằm rải rác → không chắc đã đăng ký gì, phải tìm lại lịch/địa điểm trước khi tham gia.
 
 ## Motivations:
@@ -65,7 +71,8 @@ Khi có thời gian rảnh và muốn thử một hoạt động mới trong tr�
 ## Critical scenarios:
 
 1. **Khám phá và đăng ký:** Giữa hai tiết học, Minh Anh muốn tìm một hoạt động thú vị trong tuần nhưng chưa biết tên sự kiện. Mở Camply, duyệt danh sách, xem chi tiết, đối chiếu lịch/địa điểm rồi đăng ký. Kết quả mong muốn là chọn được hoạt động phù hợp và thấy đăng ký của mình trong My Events.
-2. **Tra lại và hoàn tác:** Trước khi tham gia, Minh Anh mở My Events để kiểm tra địa điểm; trong lúc thao tác, vô tình hủy đăng ký. Muốn nhận biết việc vừa xảy ra và dùng Undo để khôi phục. Kết quả mong muốn là đọc đúng lịch/địa điểm và xác nhận trạng thái đã đăng ký được khôi phục ở cả My Events lẫn chi tiết.
+
+2. **Tra lại và hoàn tác:** Trước khi tham gia, Minh Anh mở My Events để kiểm tra địa điểm; trong lúc thao tác, vô tình hủy đăng ký. Muốn nhận biết việc vừa xảy ra và dùng Undo để khôi phục. Kết quả mong muốn là đọc đúng lịch/địa điểm và xác nhận trạng thái đã đăng ký được khôi phục ở cả My Events lẫn chi tiết. Khả năng phục hồi suất sau khi hủy cần được xác định theo chính sách hệ thống.
 
 ## Success criteria:
 
@@ -74,7 +81,7 @@ Các mục tiêu đề xuất dưới đây dùng cho prototype có tài khoản
 - **Khám phá:** Trong ≤30 giây từ lúc mở Camply, mở chi tiết một sự kiện phù hợp và giải thích đúng lý do chọn.
 - **Đăng ký:** Trong ≤120 giây tổng cộng từ cùng điểm bắt đầu, hoàn thành đăng ký, tìm thấy sự kiện trong My Events và nêu đúng thời gian, địa điểm, trạng thái.
 - **Tra lại:** Trong ≤20 giây từ Home, tìm đúng sự kiện đã đăng ký được yêu cầu và đọc đúng lịch/địa điểm.
-- **Hoàn tác:** Tự nhận biết đã hủy nhầm, tìm và dùng Undo trong cơ hội phục hồi đang hiển thị; xác nhận đúng trạng thái sau khôi phục. Thời lượng hiển thị Undo cần được kiểm chứng.
+- **Hoàn tác:** Tự nhận biết đã hủy nhầm, tìm và dùng Undo trong cơ hội phục hồi đang hiển thị nếu hệ thống hỗ trợ; xác nhận đúng trạng thái sau khôi phục. Thời lượng hiển thị Undo và khả năng phục hồi suất cần được kiểm chứng.
 
 Ghi thời gian, lỗi thao tác và mức trợ giúp; tác vụ thành công khi người dùng hoàn tất và hiểu đúng kết quả mà không cần gợi ý.
 
@@ -82,7 +89,7 @@ Ghi thời gian, lỗi thao tác và mức trợ giúp; tác vụ thành công k
 
 Thông tin trong persona được xây dựng từ quá trình **research hiện trạng chung về cách sinh viên tìm kiếm, tiếp cận, đăng ký và theo dõi các sự kiện trong môi trường đại học**.
 
-Các nội dung như hành vi hiện tại, pain points, motivations, constraints và nhu cầu được tổng hợp từ những patterns phổ biến quan sát được trong bối cảnh sử dụng các kênh như fanpage trường, fanpage câu lạc bộ, nhóm sinh viên, bài chia sẻ trên mạng xã hội và các form đăng ký sự kiện.
+Các nội dung như hành vi hiện tại, pain points, motivations, constraints và nhu cầu được tổng hợp từ những patterns phổ biến được giả định trong bối cảnh sử dụng các kênh như fanpage trường, fanpage câu lạc bộ, nhóm sinh viên, bài chia sẻ trên mạng xã hội và các form đăng ký sự kiện.
 
 Hiện chưa thực hiện phỏng vấn hoặc quan sát trực tiếp một nhóm người dùng cụ thể, vì vậy persona này vẫn được xem là **research-based proto-persona**. Các giả định về tần suất sử dụng, thời lượng phiên, mức độ thành thạo, hành vi cụ thể và nhu cầu accessibility vẫn cần được kiểm chứng thêm bằng usability test hoặc nghiên cứu người dùng thực tế.
 
@@ -109,11 +116,175 @@ Hiện chưa thực hiện phỏng vấn hoặc quan sát trực tiếp một nh
 | **Hiểu đủ thông tin trước khi quyết định tham gia** | Event Card cần giúp người dùng nhận diện nhanh sự kiện. Khi mở Event Detail, các thông tin quan trọng như **tên sự kiện, nội dung chính, ngày giờ, địa điểm và trạng thái đăng ký** phải dễ nhìn thấy trước các thông tin phụ hoặc phần mô tả dài. | Giao cho người dùng nhiệm vụ: **“Hãy xem sự kiện này và quyết định xem bạn có muốn tham gia hay không.”** Sau đó hỏi người dùng: sự kiện nói về điều gì, diễn ra khi nào, ở đâu và hiện còn đăng ký được hay không. Quan sát người dùng có phải cuộn nhiều, quay lại màn hình trước hoặc mất nhiều thời gian để tìm các thông tin này hay không. |
 | **Biết chắc mình đã đăng ký thành công** | Nút đăng ký phải có nhãn rõ như `Đăng ký`. Sau khi người dùng đăng ký, giao diện cần hiển thị phản hồi rõ ràng như `Đăng ký thành công` và trạng thái của sự kiện phải chuyển sang `Đã đăng ký`. | Yêu cầu người dùng đăng ký một sự kiện. Sau khi hoàn tất, hỏi: **“Theo bạn, bạn đã đăng ký thành công chưa? Điều gì trên giao diện khiến bạn biết điều đó?”** Quan sát xem người dùng có nhận ra thông báo thành công và trạng thái `Đã đăng ký` hay không, hay vẫn cảm thấy chưa chắc chắn và muốn nhấn nút đăng ký thêm lần nữa. |
 | **Tìm lại nhanh sự kiện đã đăng ký** | Ứng dụng cần có mục `My Events` dễ truy cập để người dùng xem lại những sự kiện mình đã đăng ký. Trạng thái của sự kiện trong `My Events` phải giống với trạng thái hiển thị trên Event Detail để tránh gây nhầm lẫn. | Sau khi người dùng đăng ký một sự kiện, yêu cầu họ rời khỏi màn hình hiện tại rồi thực hiện nhiệm vụ: **“Hãy tìm lại sự kiện mà bạn vừa đăng ký.”** Đo số thao tác và thời gian cần để tìm lại. Quan sát xem người dùng có biết nên vào đâu và có hiểu đúng trạng thái đăng ký hay không. |
-| **Có thể phục hồi khi hủy đăng ký nhầm** | Sau khi hủy đăng ký, giao diện nên hiển thị thông báo rõ ràng và có hành động `Hoàn tác` (`Undo`) trong một khoảng thời gian ngắn. Nếu người dùng chọn Hoàn tác, trạng thái sự kiện phải trở lại `Đã đăng ký` ngay lập tức. | Tạo tình huống người dùng vừa hủy đăng ký nhưng sau đó muốn khôi phục. Yêu cầu: **“Bạn vừa hủy nhầm sự kiện này. Hãy đăng ký lại hoặc khôi phục trạng thái trước đó.”** Quan sát người dùng có nhận thấy nút `Hoàn tác` hay không, có hiểu tác dụng của nó không và sau khi hoàn tác có nhận biết được sự kiện đã trở lại trạng thái `Đã đăng ký` hay không. |
+| **Có thể phục hồi khi hủy đăng ký nhầm** | Sau khi hủy đăng ký, giao diện nên hiển thị thông báo rõ ràng. Có thể thử nghiệm `Hoàn tác` (`Undo`) nếu chính sách và cơ chế giữ suất cho phép; không được tự chuyển thành `Đã đăng ký` khi suất đã được phân bổ cho người khác. | Tạo tình huống người dùng định hủy nhầm và kiểm tra khả năng ngăn thao tác qua dialog xác nhận. Nếu prototype hỗ trợ Undo, yêu cầu thử khôi phục và quan sát người dùng hiểu đúng kết quả hay không. |
 | **Sử dụng nhanh trên điện thoại, đôi khi chỉ bằng một tay** | Các hành động chính như điều hướng, mở sự kiện, đăng ký và truy cập `My Events` cần nằm ở vị trí dễ chạm. Nút và vùng tương tác phải đủ lớn để giảm thao tác nhầm. Nội dung chính cần có thứ bậc rõ để người dùng không phải đọc quá nhiều. | Cho người dùng thực hiện các tác vụ chính trên màn hình mobile, đặc biệt ở kích thước 360 dp. Quan sát xem họ có bấm nhầm, phải đổi tay, khó với tới nút, bỏ sót hành động chính hoặc phải cuộn quá nhiều trước khi tìm thấy thông tin cần thiết hay không. |
 | **Biết phải làm gì khi nội dung tải lỗi** | Nếu danh sách sự kiện không tải được, giao diện phải hiển thị thông báo dễ hiểu về việc tải thất bại và cung cấp nút `Thử lại`. Không nên để màn hình trắng hoặc chỉ hiển thị mã lỗi kỹ thuật. | Mô phỏng tình huống danh sách sự kiện tải thất bại. Hỏi người dùng: **“Theo bạn, chuyện gì vừa xảy ra và bạn sẽ làm gì tiếp theo?”** Quan sát xem họ có hiểu lỗi, có nhận ra nút `Thử lại` và có thể tiếp tục sử dụng ứng dụng mà không phải thoát rồi mở lại hay không. |
 
-# Persona 2 - Sinh viên bận rộn
+---
+
+# Persona 2 – Ban tổ chức sự kiện (Club Organizer)
+
+## Tên giả định & Archetype
+
+**Phạm Minh Quân — Sinh viên phụ trách tổ chức và vận hành sự kiện câu lạc bộ.**
+
+- 21 tuổi, sinh viên đại học năm 3.
+- Là thành viên ban tổ chức của một câu lạc bộ trong trường, tham gia chuẩn bị workshop, hoạt động giao lưu và các sự kiện dành cho sinh viên.
+- Được phân công quản lý nội dung công bố, thông tin đăng ký, những thay đổi của sự kiện và hoạt động check-in.
+- Muốn tổ chức sự kiện có quy trình rõ ràng, giảm sai sót khi xử lý thông tin và biết chính xác tình hình người tham gia.
+
+## Ưu tiên & lý do
+
+- **Secondary.**
+- **Lý do:** Mục tiêu trọng tâm của Camply là giúp sinh viên khám phá và tham gia sự kiện, nên nhóm Student được ưu tiên trong định hướng trải nghiệm chính. Tuy nhiên, Club Organizer là actor thiết yếu ở phía cung cấp và vận hành sự kiện: tạo nội dung, thiết lập chính sách tham gia, xử lý thay đổi và xác minh người đến thực tế.
+
+Persona này bổ sung góc nhìn của người tổ chức để bảo đảm những gì Student nhìn thấy và sử dụng trong Camply là thông tin chính xác, cập nhật và có thể vận hành được. **Secondary là mức độ ưu tiên của persona trong bộ persona tổng thể, không có nghĩa F04–F06 là các nghiệp vụ không quan trọng.**
+
+## Usage context
+
+- **Thời điểm:** Trước sự kiện khi chuẩn bị và công bố; trong thời gian mở đăng ký khi theo dõi danh sách; sát ngày diễn ra khi chỉnh sửa hoặc xử lý phát sinh; tại cổng khi tiếp đón và check-in.
+- **Thiết bị:** Giả định sử dụng laptop để nhập nhiều thông tin và smartphone để xem nhanh, quét QR tại địa điểm tổ chức. Thiết bị thực tế và việc Camply hỗ trợ từng tác vụ trên mỗi thiết bị cần được xác minh.
+- **Môi trường:** Phòng sinh hoạt CLB, khuôn viên trường, nơi chuẩn bị hậu cần và khu vực check-in đông người; kết nối mạng có thể không ổn định.
+- **Sự chú ý:** Phải phối hợp với nhiều thành viên, dễ bị gián đoạn bởi tin nhắn, công việc hậu cần hoặc tình huống phát sinh.
+- **Bối cảnh quyết định:** Trước khi Publish cần ưu tiên sự đầy đủ và chính xác; khi sự kiện đang diễn ra cần phản hồi nhanh nhưng tuyệt đối không ghi nhận check-in sai.
+
+## Goals
+
+1. Tạo và công bố sự kiện với thông tin đầy đủ, chính xác về nội dung, thời gian, địa điểm và đơn vị tổ chức.
+
+2. Thiết lập rõ **audience**, **eligibility**, hình thức tham gia, sức chứa, thời hạn đăng ký và waitlist (nếu áp dụng) để người tham gia hiểu đúng điều kiện.
+
+3. Theo dõi số người đã đăng ký, đang chờ và xác nhận dự định tham dự để chuẩn bị nguồn lực phù hợp, không nhầm các trạng thái này với số người thực tế đến.
+
+4. Chỉnh sửa hoặc hủy sự kiện an toàn khi có thay đổi, bảo đảm người bị ảnh hưởng được thông báo và trạng thái vé nhất quán.
+
+5. Kiểm tra vé QR, phát hiện vé trùng hoặc không hợp lệ, ghi nhận check-in chính xác.
+
+6. Xem số người đã check-in thực tế để đối chiếu với số đăng ký và đánh giá kết quả tổ chức.
+
+## Job to Be Done
+
+Khi được giao phụ trách một sự kiện của câu lạc bộ, tôi muốn tạo và công bố thông tin chính xác, quản lý trạng thái đăng ký, cập nhật thay đổi và kiểm tra vé tại cổng trong một quy trình thống nhất, để giảm thao tác thủ công, tránh nhầm lẫn cho sinh viên và nắm được số người thực sự tham gia.
+
+## Current behaviors & workaround
+
+- Có thể chuẩn bị tên, mô tả, hình ảnh, lịch trình và thông tin địa điểm rồi đăng thông báo trên fanpage CLB hoặc các nhóm sinh viên.
+- Có thể dùng biểu mẫu trực tuyến để thu thập đăng ký và bảng tính để theo dõi người tham gia.
+- Kiểm tra số người đăng ký, đối chiếu danh sách và tình trạng còn chỗ theo cách thủ công hoặc qua nhiều công cụ.
+- Khi thay đổi thời gian, địa điểm hoặc phải hủy sự kiện, có thể sửa bài đăng cũ và gửi thông báo bổ sung qua các kênh khác nhau.
+- Trước ngày diễn ra, có thể chuẩn bị danh sách đăng ký để nhân sự tại cổng đối chiếu.
+- Trong ngày tổ chức, có thể kiểm tra tên, mã đăng ký hoặc vé của sinh viên rồi đánh dấu đã đến.
+- Sau sự kiện, có thể tổng hợp lại số lượt đăng ký và số người thực sự tham gia từ danh sách check-in.
+- **Workaround giả định:** Kết hợp fanpage, biểu mẫu, bảng tính và tin nhắn để xử lý những phần việc chưa được tập trung trong một hệ thống.
+
+Các hành vi và công cụ trên là giả thuyết dựa trên bối cảnh nghiệp vụ; chưa có quan sát hoặc phỏng vấn ban tổ chức để xác nhận mức độ phổ biến.
+
+## Pain points
+
+1. **Thông tin sự kiện thiếu thống nhất:** Bài giới thiệu, form và tin nhắn cập nhật có thể khác nhau → sinh viên hiểu sai giờ, địa điểm hoặc điều kiện tham gia, ban tổ chức phải giải thích nhiều lần.
+
+2. **Khó kiểm soát số lượng và trạng thái:** Dữ liệu đăng ký và danh sách chờ có thể nằm ở nhiều nguồn → khó biết chính xác số người đã đăng ký, đang chờ hoặc xác nhận sẽ đến.
+
+3. **Dễ nhập thiếu hoặc sai khi công bố:** Các trường như điều kiện tham gia, sức chứa, thời hạn đăng ký hoặc hình thức tham gia dễ bị bỏ sót → phải chỉnh sửa sau khi đã có người xem hoặc đăng ký.
+
+4. **Thay đổi sau công bố dễ gây nhầm lẫn:** Đổi giờ, đổi địa điểm hoặc hủy sự kiện ảnh hưởng đến người đã đăng ký → khó bảo đảm mọi người đều nhận và sử dụng thông tin mới.
+
+5. **Check-in có nguy cơ chậm hoặc ghi nhận trùng:** Khi nhiều sinh viên đến cùng lúc, việc đối chiếu thủ công dễ gây ùn tắc hoặc chấp nhận nhầm vé không hợp lệ.
+
+6. **Số đăng ký không phản ánh số tham dự thực tế:** Người đăng ký có thể không đến → nếu thiếu dữ liệu check-in đáng tin cậy thì khó tổng hợp kết quả tổ chức.
+
+## Motivations
+
+- **Tổ chức chuyên nghiệp:** Muốn thông tin sự kiện rõ ràng, nhất quán và tạo sự tin tưởng cho sinh viên.
+  - **UX implication:** Luồng Create Event nên nhóm trường theo thông tin cơ bản, lịch/địa điểm và chính sách tham gia; có validation, `Save Draft` và `Review Event` trước `Publish`.
+
+- **Chủ động kiểm soát:** Muốn theo dõi nhu cầu tham gia để chuẩn bị số chỗ và nhân sự phù hợp.
+  - **UX implication:** Organizer Dashboard/Event Management cần phân biệt `Registered`, `Waitlisted` và `Planning to Attend`; làm rõ các chỉ số này không đồng nghĩa `Checked-in`.
+
+- **Giảm rủi ro khi xử lý thay đổi:** Muốn tránh gửi thông tin sai hoặc vô tình hủy một sự kiện đã có người đăng ký.
+  - **UX implication:** Edit/Cancel cần cho xem lại nội dung và tác động, có bước xác nhận đối với thao tác nhạy cảm và phản hồi rõ trạng thái sau khi lưu. Thay đổi quan trọng cần thông báo cho người bị ảnh hưởng.
+
+- **Vận hành nhanh và chính xác:** Muốn kiểm tra vé kịp thời khi nhiều sinh viên đến, đồng thời không để một vé được ghi nhận hai lần.
+  - **UX implication:** QR Scanner cần phản hồi rõ `Valid`, `Duplicate`, `Invalid` và lỗi kết nối; chỉ ghi nhận `Checked-in` khi xác minh thành công.
+
+## Constraints
+
+- **Thời gian:** Trước sự kiện cần xử lý nhiều đầu việc; trong ngày diễn ra cần thao tác nhanh, ít bước và dễ nhận diện kết quả.
+- **Sự chú ý:** Dễ bị gián đoạn bởi công việc hậu cần và yêu cầu từ thành viên khác; UI phải giúp xác định đang quản lý sự kiện nào, đang ở bước nào.
+- **Thiết bị:** Giả định có thể dùng laptop và smartphone trong những bối cảnh khác nhau; không nên mặc định một tác vụ phức tạp sẽ luôn được thực hiện trên màn hình lớn.
+- **Kết nối:** Có thể mất mạng tại nơi check-in; không được báo thành công hoặc cộng số check-in khi hệ thống chưa xác minh được vé.
+- **Kỹ năng:** Mức độ quen dùng công cụ quản lý sự kiện khác nhau; các nhãn như `Audience`, `Eligibility`, `Registration Required` và `Waitlisted` cần được diễn giải dễ hiểu.
+- **Accessibility:** Chưa có dữ liệu về nhu cầu cá nhân. Giao diện cần vùng chạm đủ lớn, chữ dễ đọc, trạng thái có nhãn chữ thay vì chỉ thể hiện bằng màu.
+- **Quyền hạn:** Chỉ quản lý những sự kiện được phân quyền; tài liệu chưa xác định chi tiết vai trò và phân quyền giữa các thành viên trong cùng ban tổ chức.
+
+## Critical scenarios
+
+1. **Tạo và công bố sự kiện (F04):** Minh Quân được giao đăng workshop của CLB. Anh vào Organizer Dashboard, chọn `Create Event`, nhập thông tin cơ bản, thời gian, địa điểm, audience, eligibility, registration policy, capacity và thời hạn đăng ký. Trước khi Publish, anh muốn kiểm tra lại những thông tin quan trọng. **Kết quả mong muốn:** Sự kiện được công bố khi dữ liệu hợp lệ; nếu chưa xong có thể `Save Draft`; trường không hợp lệ được chỉ rõ để sửa.
+
+2. **Cập nhật hoặc hủy sự kiện (F05):** Workshop đã có sinh viên đăng ký nhưng phải đổi phòng hoặc đổi giờ. Minh Quân chọn sự kiện đã đăng, thực hiện `Edit`, xem lại thay đổi và xác nhận. Nếu buộc phải `Cancel`, anh cần thấy cảnh báo về hậu quả trước khi quyết định. **Kết quả mong muốn:** Thay đổi được lưu và người bị ảnh hưởng được thông báo; khi hủy, vé không còn hiệu lực; nếu xử lý thất bại, hệ thống giữ trạng thái cũ và hiển thị lỗi.
+
+3. **Quản lý danh sách và check-in (F06):** Vào ngày diễn ra, Minh Quân kiểm tra số lượng `Registered`, `Waitlisted`, `Planning to Attend`, sau đó mở QR Scanner để tiếp nhận sinh viên tại cổng. Anh lần lượt gặp vé hợp lệ, vé đã check-in và vé sai sự kiện. **Kết quả mong muốn:** Vé hợp lệ được ghi nhận đúng một lần; vé trùng và vé không hợp lệ bị từ chối; `Checked-in` phản ánh số lượt xác minh thành công, kể cả khi mạng không ổn định.
+
+## Success criteria
+
+Các mục tiêu dưới đây là ngưỡng đề xuất để kiểm thử prototype với tài khoản Organizer đã đăng nhập và bộ dữ liệu được cung cấp sẵn; chưa phải kết quả usability test.
+
+- **Tạo sự kiện:** Trong ≤8 phút, tạo và Publish một sự kiện từ dữ liệu đã chuẩn bị, chọn đúng hình thức tham gia và không bỏ sót trường bắt buộc.
+- **Hiểu lỗi form:** Nhận biết đúng trường sai hoặc thiếu và sửa được mà không cần hướng dẫn.
+- **Phân biệt trạng thái:** Xác định đúng ý nghĩa và số lượng của `Registered`, `Waitlisted`, `Planning to Attend`, `Checked-in` từ màn hình được cung cấp.
+- **Chỉnh sửa:** Trong ≤2 phút, tìm đúng sự kiện, thay đổi một thông tin được chỉ định và nhận biết kết quả cập nhật.
+- **Hủy an toàn:** Nhận biết hậu quả của `Cancel` và có thể dừng thao tác trước bước xác nhận khi không muốn hủy.
+- **Check-in:** Trong điều kiện kiểm thử có phản hồi xác minh, xử lý một lượt quét trong ≤10 giây và phân loại chính xác `Valid`, `Duplicate`, `Invalid`.
+- **Lỗi kết nối:** Khi quét thất bại do mất mạng, nhận biết vé chưa được xác minh và không nhầm đó là check-in thành công.
+
+Ghi thời gian, số thao tác, số lỗi và mức trợ giúp. Tác vụ thành công khi người dùng hoàn tất nghiệp vụ và giải thích đúng trạng thái mà không cần gợi ý.
+
+## Research evidence
+
+Persona được xây dựng dựa trên **đặc tả 6 User Flow của Camply**, tập trung vào F04 – Create & Publish Event, F05 – Manage Event Changes & Cancellation và F06 – Manage Attendees & Event Check-in.
+
+Tài liệu mô tả ba nhóm vấn đề nghiệp vụ: thông tin và chính sách sự kiện có thể thiếu thống nhất; thay đổi sau công bố có thể ảnh hưởng đến người đã đăng ký; việc kiểm tra vé thủ công có nguy cơ ghi nhận nhầm hoặc trùng. Đây là **các giả thuyết thiết kế trong tài liệu**, chưa phải phát hiện đã được xác nhận từ nghiên cứu người dùng.
+
+Các mô tả về cách ban tổ chức hiện dùng fanpage, form, bảng tính, phân công nhân sự hoặc sử dụng thiết bị là giả định bổ sung để hình thành persona; cần kiểm chứng bằng phỏng vấn, quan sát quy trình thực tế và usability test.
+
+## Evidence status
+
+**Proto-Persona — chưa xác thực.**
+
+- **Provided:** Actor Club Organizer; các nhiệm vụ tạo/công bố, chỉnh sửa/hủy sự kiện và quản lý người tham gia/check-in; các trạng thái và quy tắc trong F04–F06.
+- **Assumed:** Tên, tuổi, năm học, vai trò cụ thể trong CLB, công cụ đang dùng, thiết bị, áp lực công việc, hành vi workaround và những tình huống minh họa.
+- **Inferred:** Nhóm trường của Create Event, cách trình bày dashboard, thiết kế bước xác nhận, hiển thị QR Scanner và phản hồi lỗi được suy ra từ nghiệp vụ và nhu cầu giả định.
+- **Observed / Reported:** Chưa có dữ liệu quan sát hoặc lời thuật lại từ thành viên ban tổ chức thực tế.
+
+## Open questions
+
+- Ban tổ chức hiện dùng những công cụ nào để công bố sự kiện và quản lý đăng ký? Bước nào mất thời gian nhất?
+- Người tạo sự kiện có đồng thời là người chỉnh sửa và check-in không, hay cần phân quyền nhiều thành viên?
+- Thành viên thường quản lý sự kiện trên laptop, smartphone hay cả hai? Thiết bị nào được dùng khi check-in?
+- Những trường thông tin nào thường bị thiếu hoặc sai khi đăng sự kiện?
+- Ban tổ chức phân biệt và sử dụng các chỉ số `Registered`, `Waitlisted`, `Planning to Attend` trong quyết định vận hành như thế nào?
+- Khi có chỗ trống, ban tổ chức muốn phân bổ waitlist theo quy tắc nào? Thời hạn phản hồi offer bao lâu là phù hợp?
+- Khi đổi giờ, địa điểm hoặc hủy sự kiện, ban tổ chức thường thông báo cho ai và kiểm tra việc tiếp nhận thông tin bằng cách nào?
+- Mỗi đợt check-in có bao nhiêu người và thường xảy ra lỗi gì khi đối chiếu vé?
+- Nếu không có kết nối mạng ở cổng, quy trình xử lý an toàn của ban tổ chức là gì?
+- Sau sự kiện, số liệu nào thực sự hữu ích để đánh giá chất lượng tổ chức?
+
+## Potential UI Decisions to Test
+
+| Nhu cầu của người dùng | Giả thuyết thiết kế UI | Cách kiểm chứng |
+| :-- | :-- | :-- |
+| **Công bố sự kiện đầy đủ và đúng chính sách** | Create Event chia thành các nhóm thông tin dễ hiểu, làm rõ `Audience`, `Eligibility`, `Registration Required`, `Walk-in Allowed`, `Information Only`, capacity và waitlist; có validation và `Review Event`. | Giao nhiệm vụ tạo workshop từ thông tin có sẵn, bao gồm một vài dữ liệu không hợp lệ. Quan sát người dùng nhập đúng chính sách, phát hiện trường lỗi và hiểu điều gì sẽ được công bố. |
+| **Lưu nội dung chưa hoàn thiện** | `Save Draft` tách biệt rõ khỏi `Publish`, phản hồi trạng thái nháp sau khi lưu. | Yêu cầu tạo sự kiện khi còn thiếu ảnh hoặc thời gian. Kiểm tra người dùng có biết lưu nháp và hiểu rằng sự kiện chưa hiển thị cho Student hay không. |
+| **Theo dõi đúng trạng thái người tham gia** | Dashboard/Event Management hiển thị `Registered`, `Waitlisted`, `Planning to Attend`, `Checked-in` bằng nhãn và giải thích rõ ràng. | Cho người dùng đọc số liệu của một sự kiện; yêu cầu xác định số đăng ký, số đang chờ, số dự định đến và số thực tế đã check-in. Ghi nhận nhầm lẫn. |
+| **Chỉnh sửa sự kiện mà không gây hiểu nhầm** | Trước khi lưu thay đổi quan trọng, có bước review và xác nhận; sau khi lưu, phản hồi rõ việc cập nhật thành công hay thất bại. | Yêu cầu đổi giờ hoặc địa điểm của sự kiện đã có người đăng ký. Quan sát người dùng có nhận biết thay đổi ảnh hưởng đến ai và hiểu kết quả xử lý không. |
+| **Tránh hủy sự kiện ngoài ý muốn** | `Cancel Event` dùng confirmation dialog mô tả hậu quả, khác biệt rõ với `Edit` hoặc `Back`. | Yêu cầu người dùng bắt đầu hủy rồi đổi ý. Quan sát họ có thể giữ nguyên sự kiện mà không thực hiện nhầm thao tác phá hủy hay không. |
+| **Check-in nhanh nhưng chính xác** | QR Scanner phản hồi rõ ràng theo ba trạng thái `Valid`, `Duplicate`, `Invalid`; không cộng thêm check-in khi vé đã quét hoặc không hợp lệ. | Mô phỏng ba mã QR trên cùng sự kiện. Đo thời gian xác định kết quả và số lần người dùng xử lý sai hoặc hiểu nhầm trạng thái. |
+| **Ứng phó khi kết nối thất bại** | Khi không xác minh được vé, hiển thị lỗi dễ hiểu và tùy chọn `Thử lại`; không tạo phản hồi check-in thành công giả. | Giả lập mất mạng khi quét QR; hỏi người dùng vé đã được ghi nhận chưa và họ sẽ làm gì tiếp theo. |
+| **Biết số người đến thực tế** | `Checked-in` được trình bày tách biệt với `Registered` và `Planning to Attend`, có thể đối chiếu trên Event Management. | Sau một chuỗi check-in giả lập, yêu cầu xác định số người thực tế đã đến và giải thích vì sao khác số đăng ký. |
+
+---
+
+# Persona 3 - Sinh viên bận rộn
 
 ## Tên giả định & Archetype
 
@@ -196,17 +367,11 @@ Khi có một khoảng thời gian rảnh giữa lịch học và các công vi�
 ## Constraints
 
 - **Thời gian:** Khoảng rảnh ngắn và dễ bị gián đoạn; flow dài hoặc nhiều màn hình làm tăng khả năng bỏ dở.
-
 - **Sự chú ý:** Người dùng thường chỉ muốn xác định nhanh “có phù hợp lịch không?” trước khi đọc sâu hơn.
-
 - **Thiết bị:** Smartphone có màn hình nhỏ; thông tin lịch không được trình bày quá dày hoặc yêu cầu so sánh nhiều cột.
-
 - **Kỹ năng:** Mức độ quen với filter nâng cao hoặc các gesture ẩn chưa được xác minh; cần sử dụng pattern quen thuộc và label rõ.
-
 - **Kết nối:** Có thể sử dụng trong lúc di chuyển; loading và error state phải giúp người dùng biết dữ liệu thời gian/sự kiện đã tải thành công hay chưa.
-
 - **Accessibility:** Nhu cầu cá nhân chưa được khảo sát. Theo tình huống, giao diện cần dễ scan nhanh, vùng chạm đủ lớn và không dùng màu là dấu hiệu duy nhất của trạng thái.
-
 - **Quyền hạn:** Là người tham gia; chỉ quản lý các sự kiện mình quan tâm hoặc đã đăng ký, không chỉnh sửa thông tin sự kiện.
 
 ## Critical scenarios
@@ -222,13 +387,9 @@ Khi có một khoảng thời gian rảnh giữa lịch học và các công vi�
 Các mục tiêu dưới đây dùng cho prototype có dữ liệu sự kiện phù hợp; chưa có kết quả usability test thực tế.
 
 - **Tìm theo thời gian:** Trong ≤20 giây từ Home, tìm và mở chi tiết một sự kiện phù hợp với khoảng thời gian được giao.
-
 - **Nhận biết lịch:** Sau khi xem Event Card hoặc Event Detail, xác định đúng ngày, giờ và liệu sự kiện có phù hợp với khoảng thời gian yêu cầu mà không cần trợ giúp.
-
 - **Lưu sự kiện:** Lưu một sự kiện đang cân nhắc và tìm lại đúng sự kiện đó trong ≤15 giây từ Home.
-
 - **Tra lại sự kiện:** Trong ≤20 giây từ Home, tìm được một sự kiện đã đăng ký và đọc đúng thời gian, địa điểm và trạng thái.
-
 - **Nhận biết reminder:** Khi nhận reminder giả lập, hiểu đúng sự kiện nào sắp diễn ra và biết hành động tiếp theo mà không cần giải thích.
 
 Ghi thời gian, số bước, lỗi thao tác và mức trợ giúp. Tác vụ thành công khi người dùng hoàn tất và hiểu đúng trạng thái mà không cần gợi ý.
@@ -237,7 +398,7 @@ Ghi thời gian, số bước, lỗi thao tác và mức trợ giúp. Tác vụ 
 
 Thông tin trong persona được xây dựng từ quá trình **research hiện trạng chung về cách sinh viên tìm kiếm, tiếp cận, đăng ký và theo dõi các sự kiện trong môi trường đại học**.
 
-Các nội dung như hành vi hiện tại, pain points, motivations, constraints và nhu cầu được tổng hợp từ những patterns phổ biến quan sát được trong bối cảnh sử dụng các kênh như fanpage trường, fanpage câu lạc bộ, nhóm sinh viên, bài chia sẻ trên mạng xã hội và các form đăng ký sự kiện.
+Các nội dung như hành vi hiện tại, pain points, motivations, constraints và nhu cầu được tổng hợp từ những patterns phổ biến được giả định trong bối cảnh sử dụng các kênh như fanpage trường, fanpage câu lạc bộ, nhóm sinh viên, bài chia sẻ trên mạng xã hội và các form đăng ký sự kiện.
 
 Hiện chưa thực hiện phỏng vấn hoặc quan sát trực tiếp một nhóm người dùng cụ thể, vì vậy persona này vẫn được xem là **research-based proto-persona**. Các giả định về tần suất sử dụng, thời lượng phiên, mức độ thành thạo, hành vi cụ thể và nhu cầu accessibility vẫn cần được kiểm chứng thêm bằng usability test hoặc nghiên cứu người dùng thực tế.
 
@@ -246,11 +407,8 @@ Hiện chưa thực hiện phỏng vấn hoặc quan sát trực tiếp một nh
 **Proto-Persona — chưa xác thực.**
 
 - **Provided:** Sinh viên 18–24 tuổi, lịch học dày; muốn tìm nhanh sự kiện phù hợp lịch cá nhân, lưu sự kiện quan tâm và nhận nhắc nhở.
-
 - **Assumed:** Tuổi cụ thể, năm học, thời lượng phiên, cách kiểm tra lịch, cách lưu sự kiện hiện tại, hành vi reminder và các critical scenarios.
-
 - **Inferred:** Việc ưu tiên thời gian trên Event Card, filter theo thời gian, Saved Events và cách trình bày reminder được suy ra từ nhu cầu đã mô tả.
-
 - **Observed / Reported:** Chưa có dữ liệu từ người tham gia nghiên cứu thực tế.
 
 ## Open questions
@@ -275,7 +433,9 @@ Hiện chưa thực hiện phỏng vấn hoặc quan sát trực tiếp một nh
 | **Tiếp tục sau khi bị gián đoạn** | Các trạng thái `Saved` và `Registered` phải tồn tại rõ ràng để khi quay lại ứng dụng, người dùng không cần nhớ mình đã làm gì trước đó. | Cho người dùng lưu hoặc đăng ký một sự kiện, chuyển sang một tác vụ khác rồi quay lại Camply. Yêu cầu xác định sự kiện đang ở trạng thái nào và tiếp tục từ đó. Quan sát xem trạng thái có đủ rõ để người dùng không lặp lại thao tác. |
 | **Tra lại nhanh sự kiện đã đăng ký** | `My Events` cần dễ truy cập và ưu tiên `Upcoming` để người dùng bận rộn thấy ngay sự kiện gần nhất. | Yêu cầu người dùng từ Home tìm sự kiện đã đăng ký sắp diễn ra gần nhất. Đo số thao tác, thời gian và việc họ có đọc đúng ngày giờ, địa điểm hay không. |
 
-# Persona 3 — Sinh viên năm nhất
+---
+
+# Persona 4 — Sinh viên năm nhất
 
 ## Tên giả định & Archetype
 
@@ -298,7 +458,7 @@ Persona này giúp kiểm tra liệu Camply có thể hỗ trợ người dùng 
 - **Thời điểm:** Những tuần đầu học kỳ, thời gian orientation, giữa các tiết học hoặc khi muốn tìm hoạt động ngoài giờ.
 - **Thiết bị:** Smartphone, màn hình dọc; có thể sử dụng ngay khi đang ở trong khuôn viên trường.
 - **Môi trường:** Khuôn viên chưa quen thuộc, lớp học, ký túc xá, căn tin, thư viện hoặc khi đi cùng bạn mới.
-- **Sự chú ý:** Có thể dành nhiều thời gian khám phá hơn Persona 2 nhưng vẫn cần thông tin đơn giản, dễ hiểu vì nhiều tên CLB, địa điểm và thuật ngữ còn mới.
+- **Sự chú ý:** Có thể dành nhiều thời gian khám phá hơn Persona 3 nhưng vẫn cần thông tin đơn giản, dễ hiểu vì nhiều tên CLB, địa điểm và thuật ngữ còn mới.
 - **Bối cảnh kiến thức:** Chưa chắc biết tên đơn vị tổ chức hoặc tên sự kiện để search trực tiếp.
 
 ## Goals
@@ -360,17 +520,11 @@ Khi mới vào đại học và chưa biết có những câu lạc bộ hoặc 
 ## Constraints
 
 - **Kiến thức về trường:** Chưa biết nhiều tên CLB, khoa, tòa nhà hoặc kênh truyền thông → giao diện không được phụ thuộc vào kiến thức nội bộ.
-
 - **Từ vựng:** Tên viết tắt hoặc thuật ngữ riêng của trường có thể khó hiểu; cần label và mô tả rõ.
-
 - **Kinh nghiệm:** Chưa biết quy trình đăng ký sự kiện thường diễn ra như thế nào hoặc sau đăng ký cần làm gì.
-
 - **Thiết bị:** Chủ yếu dùng smartphone; khi đang trong khuôn viên trường có thể vừa đi vừa kiểm tra địa điểm.
-
 - **Sự tự tin:** Có thể do dự khi sự kiện không nói rõ đối tượng hoặc không biết có thể tham gia một mình hay không. Đây là giả định cần nghiên cứu thêm, không phải đặc điểm đã xác minh.
-
 - **Accessibility:** Nhu cầu cá nhân chưa được khảo sát. Nội dung cần chữ dễ đọc, label rõ, vùng chạm đủ lớn và không dùng màu làm dấu hiệu duy nhất.
-
 - **Quyền hạn:** Là người tham gia; không quản trị CLB hoặc chỉnh sửa nội dung sự kiện.
 
 ## Critical scenarios
@@ -386,13 +540,9 @@ Khi mới vào đại học và chưa biết có những câu lạc bộ hoặc 
 Các mục tiêu dưới đây dùng cho prototype; chưa có dữ liệu usability test thực tế.
 
 - **Khám phá:** Trong ≤30 giây từ Home, tìm và mở một sự kiện có mục đích giao lưu/kết nối mà không cần biết trước tên sự kiện hoặc CLB.
-
 - **Hiểu sự kiện:** Sau khi xem Event Detail, nêu đúng sự kiện nói về điều gì, dành cho ai, khi nào và ở đâu mà không cần mở nguồn bên ngoài.
-
 - **Nhận biết organizer:** Xác định được đơn vị tổ chức và hiểu cơ bản đơn vị đó là ai từ thông tin trong Camply.
-
 - **Đăng ký:** Hoàn thành đăng ký một sự kiện phù hợp và hiểu đúng trạng thái đăng ký mà không cần trợ giúp.
-
 - **Tra địa điểm:** Trong ≤20 giây từ My Events, tìm lại sự kiện được yêu cầu và đọc đúng địa điểm tổ chức.
 
 Ghi thời gian, lỗi thao tác, câu hỏi người dùng đặt ra và mức trợ giúp. Tác vụ thành công khi người dùng hoàn tất và hiểu đúng nội dung mà không cần giải thích từ người test.
@@ -401,7 +551,7 @@ Ghi thời gian, lỗi thao tác, câu hỏi người dùng đặt ra và mức 
 
 Thông tin trong persona được xây dựng từ quá trình **research hiện trạng chung về cách sinh viên tìm kiếm, tiếp cận, đăng ký và theo dõi các sự kiện trong môi trường đại học**.
 
-Các nội dung như hành vi hiện tại, pain points, motivations, constraints và nhu cầu được tổng hợp từ những patterns phổ biến quan sát được trong bối cảnh sử dụng các kênh như fanpage trường, fanpage câu lạc bộ, nhóm sinh viên, bài chia sẻ trên mạng xã hội và các form đăng ký sự kiện.
+Các nội dung như hành vi hiện tại, pain points, motivations, constraints và nhu cầu được tổng hợp từ những patterns phổ biến được giả định trong bối cảnh sử dụng các kênh như fanpage trường, fanpage câu lạc bộ, nhóm sinh viên, bài chia sẻ trên mạng xã hội và các form đăng ký sự kiện.
 
 Hiện chưa thực hiện phỏng vấn hoặc quan sát trực tiếp một nhóm người dùng cụ thể, vì vậy persona này vẫn được xem là **research-based proto-persona**. Các giả định về tần suất sử dụng, thời lượng phiên, mức độ thành thạo, hành vi cụ thể và nhu cầu accessibility vẫn cần được kiểm chứng thêm bằng usability test hoặc nghiên cứu người dùng thực tế.
 
@@ -410,11 +560,8 @@ Hiện chưa thực hiện phỏng vấn hoặc quan sát trực tiếp một nh
 **Proto-Persona — chưa xác thực.**
 
 - **Provided:** Sinh viên 18–20 tuổi, mới làm quen với môi trường đại học; muốn tìm hoạt động để kết bạn và hòa nhập; chưa biết CLB hoặc các kênh sự kiện của trường.
-
 - **Assumed:** Tên, tuổi cụ thể, hành vi hỏi bạn bè, mức độ quen địa điểm, lo lắng khi tham gia một mình và các workaround.
-
-- **Inferred:** Việc ưu tiên discovery theo category, giới thiệu organizer, giải thích đối tượng tham gia và làm rõ location được suy ra từ nhu cầu của persona.
-
+- **Inferred:** Việc ưu tiên discovery theo category, giới thiệu organizer, giải thích đối tượng tham gia và làm rõ location được suy ra từ nhu cầu đã mô tả.
 - **Observed / Reported:** Chưa có dữ liệu từ người tham gia nghiên cứu thực tế.
 
 ## Open questions
